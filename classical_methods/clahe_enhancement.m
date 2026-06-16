@@ -4,7 +4,7 @@ close all;
 
 %% Load image
 
-img = imread(''); % Type your image file path here 
+img = imread('G:\Raw data\optoacoustic imaging\AI training Photoaccousatic data\4042171\Photoacoustic_UNet\Contrast_testing_Set\C7.png');
 
 if size(img,3)==3
     img = rgb2gray(img);
